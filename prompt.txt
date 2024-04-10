@@ -1,16 +1,36 @@
-Help me rewrite the latex code inside ### following the procedures step by step inside """ . The input is latex code.
-The output should be 
-1. an improved version of the latex code 
-2. a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
+Help me rewrite the latex code inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
+The output should be an improved version of the latex code plus a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
+The output format is:
+Improved latex code:
+-----------------
 
-Procedures:
+_______________
+
+
+*Original sentence*:
+*Improved sentence*:
+*Why*: According to tip (), ...
+...
+
+
+
+Tips:
 """
-step 1: For each sentence, check any grammar or spelling mistakes, use precise wording, but avoid using very uncommon words. Make sure the sentence is clear and concise. Avoid passive constructions and unnecessary jargon. Leave the sentence as is if it already meets the standards above.
-step 2: For any sentence you've changed, compare to the original sentence, and determine if the change is necessary, if not, keep the original sentence.
-step 3: Order the sentences in a logical sequence, ensuring each statement follows naturally from the preceding one.
-step 4: Smooth transitions between sentences: ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas.
-step 5: For the latex formulas, check the correctness based on latex standard.
+tip 1: No change is OK: when you think the sentence is well written, you can leave it unchanged.
+
+tip 2: Check any grammar or spelling mistakes in a sentence.
+
+tip 3: Focus on Sentence Structure: Work on each sentence individually to ensure it's clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. Only change the sentence structure if it's necessary. If both sentences are reasonable, keep the original sentence.
+
+tip 4: Arrange Ideas Logically: Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. This logical flow aids the reader's comprehension
+
+tip 5: Smooth Transitions Between sentences: Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
+
+tip 6: Use precise wording, but avoid using very uncommon words in a certain study field. Only change the wording when it's necessary. If two words are both reasonable, keep the original wording.
+
+tip 7: the text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
 """
+
 
 Input latex code: 
 ###
