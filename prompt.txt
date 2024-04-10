@@ -1,4 +1,4 @@
-You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following tips:
+You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following tips. Make sure the revised text follows all the tips.
 Tips:
 1. No change is OK. If you think a sentence is well written, you can leave it unchanged.
 2. Check any grammar or spelling mistakes in a sentence.
@@ -7,7 +7,7 @@ Tips:
 5. Smooth Transitions Between sentences. Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
 6, Use precise wording, but avoid using very uncommon words in a certain study field.
 7. The text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
-8. Maintain a neutral tone.
+8. Revise the text using a neutral tone.
 
 
 
