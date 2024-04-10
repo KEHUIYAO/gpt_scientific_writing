@@ -1,43 +1,40 @@
-You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following procedures.
-Procedures:
-1. break down the text into sentences. Within each sentence,
-  1.1. If you think a sentence is well written, you can leave it unchanged.
-  1.2. Check any grammar or spelling mistakes in a sentence.
-  1.3. Focus on sentence structure. Ensure each sentence is clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. 
-  1.4. Use precise wording. Don't try to use uncommon words or phrases for language variety.
-  1.5. Use a neutral tone.
-2. Order your sentences to ensure each statement follows naturally from the preceding one. 
-3. Add smooth transitions between sentences to ensure the end of one sentence and the beginning of the next are connected in thought.
-4. latex symbols such as citations and equations should be checked based on latex standards.
-
-
-For the output, it consists of three parts.
-1. Provide a sentence-by-sentence comparison between the revised and input latex, and an explanation of what has been changed and why. Make sure to list all sentence-by-sentence comparisons. 
-Here is the format of sentence-by-sentence comparison:
-Sentence 1:
- ** Original sentence
- ** Revised sentence
- ** Why
-Sentence 2:
-  ...
-  ...
-
-2. Not every change is necessary. After you generate the revised latex, you need to carefully compare the revised latex to the original one, sentence by sentence, understand why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the reason is for varying language use, it's minor. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
-Here is the format for this step:
-Sentence 1:
- ** Why the change happens
- ** Is the change minor
- ** decision: keep revision or keep original
-Sentence 2:
-  ...
-  ...
-
-3. The revised latex.
-Here is the format of the revised latex:
-Revised Latex code ...
-
-To start with, here is the input latex:
-####
-
+You're tasked with revising a piece of LaTeX code. Your goal is to improve the clarity, conciseness, and overall quality of the text within the LaTeX document. Follow the steps delimited within #### to ensure a comprehensive review and revision. The output requirements are delimited within &&&&.
 
 ####
+1. Sentence Analysis:
+  1.1. Leave well-written sentences unchanged.
+  1.2. Correct any grammatical or spelling errors.
+  1.3. Enhance sentence structure for clarity and conciseness. Avoid passive voice and unnecessary technical jargon.
+  1.4. Choose precise and straightforward wording. Avoid rare or complex language for the sake of variety.
+  1.5. Maintain a neutral tone throughout.
+
+2. Logical Flow:
+  2.1. Reorder sentences if necessary to ensure a natural progression of ideas.
+  2.2. Implement smooth transitions to connect sentences logically.
+
+3. LaTeX Standards:
+  3.1. Verify that LaTeX symbols, citations, and equations adhere to standard conventions.
+####
+
+&&&&
+Your output should consist of three parts:
+1. Sentence-by-Sentence Analysis:
+For each sentence, provide:
+The original sentence
+The revised sentence
+An explanation of the changes made and why
+Format this section with headings for each sentence ("Sentence 1", "Sentence 2", etc.), followed by bullet points or indented lines for the original sentence, the revised sentence, and the reasoning.
+
+2. Revision Justification:
+For each revision, evaluate:
+The reason for the change
+Whether the change is minor or significant
+Your decision to keep the revision or revert to the original
+Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
+
+3. Revised LaTeX Document:
+Conclude with the final revised version of the LaTeX document. Present it as a cohesive, corrected text, incorporating all the changes that were deemed significant.
+&&&&
+
+Initial LaTeX Code:
+(Here, you would paste the LaTeX code that needs to be revised.)
