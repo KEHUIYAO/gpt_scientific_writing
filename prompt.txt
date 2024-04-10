@@ -1,0 +1,39 @@
+# gpt_scientific_writing
+Help me rewrite the text inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
+The output should be an improved version of the text plus a sentence-to-sentence 
+comparison with the original text and illustration of why the changes are necessary. 
+The output format is:
+Improved text:
+-----------------
+
+_______________
+
+*Original sentence*:
+*Improved sentence*:
+*Why*:
+...
+
+
+
+Tips:
+"""
+tip 1: No change is OK: when you think the sentence is well written, you can leave it unchanged.
+
+tip 2: Check any grammar or spelling mistakes in a sentence.
+
+tip 3: Focus on Sentence Structure: Work on each sentence individually to ensure it's clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon
+
+tip 4: Arrange Ideas Logically: Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. This logical flow aids reader's comprehension
+
+tip 5: Smooth Transitions Between sentences: Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
+
+tip 6: Use precise wording, but avoid using very uncommon words in the certain study field.
+
+tip 7: the text provided might be latex code, so it might contain some latex formulas, you can keep those formulas that you don't know how to improve.
+"""
+
+
+Text: 
+###
+Imputing missing data in animal trajectories is essential for understanding animal movements during unobserved periods. Traditional methods like linear interpolation and the continuous-time correlated random walk model often inadequately capture the complexity of animal movements, as they typically focus on individual animals without utilizing the available trajectory data from others to enhance movement pattern prediction for imputation. This study introduces a deep learning approach, specifically the Conditional Score-based Diffusion Model (CSDI), originally designed for imputing multivariate time series data, to the context of animal trajectory imputation. Unlike traditional methods, CSDI utilizes observed data along with external covariates to impute missing trajectories, allowing it to capture periodic patterns in animal movement and the influence of covariates on these movements, leading to more accurate imputations. We have developed a process to segment trajectories from hundreds of deer, enabling the model to learn general movement patterns from this collective dataset. When applied to a dataset of 402 female deer trajectories in Wisconsin, our method not only achieves more precise deterministic imputations but also provides more reliable probabilistic imputations than existing techniques.
+###
