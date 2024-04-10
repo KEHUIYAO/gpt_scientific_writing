@@ -25,8 +25,7 @@ Sentence 2:
 2. Not every change is necessary. After you generate the revised latex, you need to carefully compare the revised latex to the original one, sentence by sentence, understand why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the reason is for varying language use, it's minor. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
 Here is the format for this step:
 Sentence 1:
- ** Original sentence
- ** Revised sentence
+ ** Why the change happens
  ** Is the change minor
  ** decision: keep revision or keep original
 Sentence 2:
