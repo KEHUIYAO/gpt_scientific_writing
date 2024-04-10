@@ -1,7 +1,7 @@
 Help me rewrite the latex code inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
 The output should be an improved version of the latex code plus a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
 The output format is:
-Improved latex:
+Improved latex code:
 -----------------
 
 _______________
@@ -32,7 +32,7 @@ tip 7: the text provided is latex, so it contains some latex symbols such as \ci
 """
 
 
-Text: 
+Input latex code: 
 ###
 your latex code
 ###
