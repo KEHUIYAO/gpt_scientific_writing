@@ -1,4 +1,4 @@
-Help me rewrite the latex code inside ### following the procedures inside """. The input is latex code.
+Help me rewrite the latex code inside ### following the procedures inside """ step by step. The input is latex code.
 The output should be 
 1. an improved version of the latex code 
 2. a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
