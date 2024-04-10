@@ -29,7 +29,7 @@ Format this section with headings for each sentence ("Sentence 1", "Sentence 2",
 For each revision, evaluate:
 The reason for the change
 Whether the change is minor or significant
-Your decision to keep the revision or revert to the original. If the change is minor, the decision should be reverted to the original.
+Your decision to keep the revision or revert to the original. Revert to the original if the change is minor.
 Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
 
 3. Revised LaTeX Document:
