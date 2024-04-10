@@ -1,5 +1,5 @@
-Help me rewrite the latex inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
-The output should be an improved version of the latex plus a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
+Help me rewrite the latex code inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
+The output should be an improved version of the latex code plus a sentence-to-sentence comparison with the original latex and an illustration of why the changes are necessary. Present all sentence-to-sentence comparisons for the input latex.
 The output format is:
 Improved latex:
 -----------------
