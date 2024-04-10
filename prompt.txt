@@ -4,6 +4,7 @@ Then, decide whether or not to accept the revised version of the sentence, the c
 Finally, return the revised latex.
 
 The output format is:
+* Original latex:
 * Sentence-by-sentence comparison:
   ** Original sentence:
   ** Improved sentence:
