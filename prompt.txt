@@ -31,7 +31,7 @@ tip 4: Arrange Ideas Logically: Order your sentences and paragraphs in a logical
 
 tip 5: Smooth Transitions Between sentences: Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
 
-tip 6: Use precise wording, but avoid using very uncommon words in a certain study field.
+tip 6: Use precise wording, but avoid using very uncommon words in a certain study field. Only change the wording when it's necessary. If two words are both reasonable, keep the original wording.
 
 tip 7: the text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
 """
