@@ -1,40 +1,35 @@
-Help me revise the latex code inside ### based on the tips inside """. Before making the changes, think about those tips step by step.
-The first output should be a sentence-to-sentence comparison between the revised latex and input latex, and an explanation of what has been changed and why. List all sentence-to-sentence comparisons based on the revised latex and input latex.
-Then, for each pair of original sentences and the revised sentence, decide whether or not to accept the revised version of the sentence, the criterion is only implementing the changes that significantly enhance the text. If the change is minor, then keep the original sentence.
-Finally, return the final revised latex.
+You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following tips:
+Tips:
+1. No change is OK. If you think a sentence is well written, you can leave it unchanged.
+2. Check any grammar or spelling mistakes in a sentence.
+3. Focus on sentence structure. Ensure each sentence is clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. 
+4. Arrange ideas logically. Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. 
+5. Smooth Transitions Between sentences. Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
+6, Use precise wording, but avoid using very uncommon words in a certain study field. 
+7. The text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
 
-The output format is:
-* Original latex
+For the output, it consists of three parts.
+1. You should provide a sentence-by-sentence comparison between the revised and input latex, and an explanation of what has been changed and why. Make sure to list all sentence-by-sentence comparisons. 
+Here is the format of sentence-by-sentence comparison:
 * Sentence-by-sentence comparison
-  ** Original sentence
-  ** Revised sentence
-  ** Why
+ ** Original sentence
+ ** Revised sentence
+ ** Why
 
-* Sentence-by-sentence decision:
-  ** Original sentence
-  ** Revised sentence
-  ** Accept or keep the original: yes or no.
+2. Not every change is necessary. After you generate the revised latex, you then need to carefully compare the revised latex to the original one, sentence by sentence, to see whether the change significantly enhances the document. If the improvement is minor, then you need to keep the original text.
+Here is the format for this step:
+Sentence-by-sentence decision:
+ ** Original sentence
+ ** Revised sentence
+ ** Is the change minor
+ ** decision
 
-* Revised latex:
+3. the revised latex.
+Here is the format of the revised latex:
+Revised Latex code ...
 
-Here are the tips:
-"""
-tip 1: No change is OK: when you think the sentence is well written, you can leave it unchanged.
+To start with, here is the input latex:
+####
 
-tip 2: Check any grammar or spelling mistakes in a sentence.
 
-tip 3: Focus on Sentence Structure: Work on each sentence individually to ensure it's clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. Only change the sentence structure if it's necessary. If both sentences are reasonable, keep the original sentence.
-
-tip 4: Arrange Ideas Logically: Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. This logical flow aids the reader's comprehension
-
-tip 5: Smooth Transitions Between sentences: Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
-
-tip 6: Use precise wording, but avoid using very uncommon words in a certain study field. Only change the wording when it's necessary. If two words are both reasonable, keep the original wording.
-
-tip 7: the text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
-"""
-
-Here is the input latex code: 
-###
-your latex code
-###
+####
