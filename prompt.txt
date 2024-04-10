@@ -16,7 +16,7 @@ Here is the format of sentence-by-sentence comparison:
  ** Revised sentence
  ** Why
 
-2. Not every change is necessary. After you generate the revised latex, you then need to carefully compare the revised latex to the original one, sentence by sentence, to see whether the change significantly enhances the document. If the improvement is minor, then keep the original text and discard this revision.
+2. Not every change is necessary. After you generate the revised latex, you then need to carefully compare the revised latex to the original one, sentence by sentence, to see whether the change significantly enhances the document. If the change is minor, then keep the original text and discard this revision, if the change is not minor, then keep the revision.
 Here is the format for this step:
 Sentence-by-sentence decision:
  ** Original sentence
