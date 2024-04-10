@@ -5,8 +5,9 @@ Tips:
 3. Focus on sentence structure. Ensure each sentence is clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. 
 4. Arrange ideas logically. Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. 
 5. Smooth Transitions Between sentences. Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
-6, Use precise wording, but avoid using very uncommon words in a certain study field. Don't change a word for varying language use.
+6, Use precise wording, but avoid using very uncommon words in a certain study field. 
 7. The text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
+
 
 
 For the output, it consists of three parts.
@@ -17,7 +18,7 @@ Here is the format of sentence-by-sentence comparison:
  ** Revised sentence
  ** Why
 
-2. Not every change is necessary. After you generate the revised latex, you need to carefully compare the revised latex to the original one, sentence by sentence, read the reason why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
+2. Not every change is necessary. After you generate the revised latex, you need to carefully compare the revised latex to the original one, sentence by sentence, read the reason why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the reason is for varying language use, it's minor. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
 Here is the format for this step:
 Sentence-by-sentence decision:
  ** Original sentence
