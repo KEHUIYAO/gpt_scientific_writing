@@ -14,20 +14,26 @@ Tips:
 For the output, it consists of three parts.
 1. You should provide a sentence-by-sentence comparison between the revised and input latex, and an explanation of what has been changed and why. Make sure to list all sentence-by-sentence comparisons. 
 Here is the format of sentence-by-sentence comparison:
-* Sentence-by-sentence comparison
+Sentence 1:
  ** Original sentence
  ** Revised sentence
  ** Why
+Sentence 2:
+  ...
+  ...
 
 2. Not every change is necessary. After you generate the revised latex, you need to carefully compare the revised latex to the original one, sentence by sentence, understand why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the reason is for varying language use, it's minor. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
 Here is the format for this step:
-* Sentence-by-sentence decision:
+Sentence 1:
  ** Original sentence
  ** Revised sentence
  ** Is the change minor
  ** decision: keep revision or keep original
+Sentence 2:
+  ...
+  ...
 
-3. the revised latex.
+3. The revised latex.
 Here is the format of the revised latex:
 Revised Latex code ...
 
