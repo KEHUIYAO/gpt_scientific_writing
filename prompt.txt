@@ -1,16 +1,20 @@
 Help me revise the latex code inside ### based on the tips inside """. Before making the changes, think about those tips step by step.
 The first output should be a sentence-to-sentence comparison between the revised latex and input latex, and an explanation of what has been changed and why. List all sentence-to-sentence comparisons based on the revised latex and input latex.
-Then, decide whether or not to accept the revised version of the sentence, the criterion is only implementing the changes that significantly enhance the text.
-Finally, return the revised latex.
+Then, for each pair of original sentences and the revised sentence, decide whether or not to accept the revised version of the sentence, the criterion is only implementing the changes that significantly enhance the text. If the change is minor, then keep the original sentence.
+Finally, return the final revised latex.
 
 The output format is:
-* Original latex:
-* Sentence-by-sentence comparison:
-  ** Original sentence:
-  ** Improved sentence:
-  ** Why:
-  ** Whether or not to accept the change:
-  ...
+* Original latex
+* Sentence-by-sentence comparison
+  ** Original sentence
+  ** Revised sentence
+  ** Why
+
+* Sentence-by-sentence decision:
+  ** Original sentence
+  ** Revised sentence
+  ** Accept or keep the original: yes or no.
+
 * Revised latex:
 
 Here are the tips:
