@@ -1,18 +1,18 @@
-You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following tips. Make sure the revised text follows all the tips.
-Tips:
-1. No change is OK. If you think a sentence is well written, you can leave it unchanged.
-2. Check any grammar or spelling mistakes in a sentence.
-3. Focus on sentence structure. Ensure each sentence is clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. 
-4. Arrange ideas logically. Order your sentences and paragraphs in a logical sequence, ensuring each statement follows naturally from the preceding one. 
-5. Smooth Transitions Between sentences. Ensure the end of one sentence and the beginning of the next are connected in thought, allowing for seamless reading and a coherent flow of ideas
-6, Use precise wording, but avoid using very uncommon words in a certain study field.
-7. The text provided is latex, so it contains some latex symbols such as \cite{}, \begin equation ... Those symbols should remain unchanged in the improved text.
-8. Revise the text using a neutral tone.
-
+You will be provided with a piece of latex code delimited with ####, your task is to revise the latex code based on the following procedures.
+Procedures:
+1. break down the text into sentences. Within each sentence,
+  1.1. If you think a sentence is well written, you can leave it unchanged.
+  1.2. Check any grammar or spelling mistakes in a sentence.
+  1.3. Focus on sentence structure. Ensure each sentence is clear, concise, and directly conveys your intended message. Avoid passive constructions and unnecessary jargon. 
+  1.4. Use precise wording. Don't try to use uncommon words or phrases for language variety.
+  1.5. Use a neutral tone.
+2. Order your sentences to ensure each statement follows naturally from the preceding one. 
+3. Add smooth transitions between sentences to ensure the end of one sentence and the beginning of the next are connected in thought.
+4. latex symbols such as citations and equations should be checked based on latex standards.
 
 
 For the output, it consists of three parts.
-1. You should provide a sentence-by-sentence comparison between the revised and input latex, and an explanation of what has been changed and why. Make sure to list all sentence-by-sentence comparisons. 
+1. Provide a sentence-by-sentence comparison between the revised and input latex, and an explanation of what has been changed and why. Make sure to list all sentence-by-sentence comparisons. 
 Here is the format of sentence-by-sentence comparison:
 Sentence 1:
  ** Original sentence
