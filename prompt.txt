@@ -1,4 +1,3 @@
-# gpt_scientific_writing
 Help me rewrite the text inside ### based on the tips inside """. Before making the changes,  think about those tips step by step.
 The output should be an improved version of the text plus a sentence-to-sentence 
 comparison with the original text and illustration of why the changes are necessary. 
