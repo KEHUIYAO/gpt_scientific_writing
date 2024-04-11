@@ -16,7 +16,7 @@ You're tasked with revising a piece of LaTeX code. Your goal is to improve the c
   3.1. Verify that LaTeX symbols, citations, and equations adhere to standard conventions.
 
 4. Language Simplicity:
- 4.1. Avoid replacing simple words with more complex alternatives, for example: "uses" to "employs", "Once we obtain" to "Upon obtaining", “detailed” to “elaborated”, “include” to “encompassed”, "uses" to "utilized"...
+ 4.1. Avoid replacing simple words with more complex alternatives, for example: "uses" to "employs", "Once we obtain" to "Upon obtaining", “detailed” to “elaborated”, “include” to “encompassed”, "uses" to "utilized", "making" to "rendering"...
 ####
 
 &&&&
