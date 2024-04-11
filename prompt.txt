@@ -36,7 +36,7 @@ Decision on Text: Decide to keep the revision only if the impact of change >= 3.
 Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
 
 
-3. Revised LaTeX Document:
+3. Revised LaTeX Code:
 Conclude with the final revised version of the LaTeX document. Present it as a cohesive, corrected text, incorporating all the changes that were deemed significant.
 &&&&
 
