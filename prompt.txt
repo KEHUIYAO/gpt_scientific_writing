@@ -28,8 +28,8 @@ Format this section with headings for each sentence ("Sentence 1", "Sentence 2",
 2. Revision Justification: Carefully compare the revised sentence to the original. 
 For each sentence's revision, evaluate:
 Reason for Change: Explain why the change was made.
-Impact of Change: Determine if the change is minor or significant.
-Decision on Text: Decide to keep the revision only if the change significantly enhances the sentence. Otherwise, revert to the original sentence.
+Impact of Change: Determine the significance of the change based on a score from 1 to 5. 1 means minor, and 5 means significant.
+Decision on Text: Decide to keep the revision only if the impact of change >= 3. Otherwise, revert to the original sentence.
 Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
 
 3. Revised LaTeX Document:
