@@ -25,11 +25,11 @@ The revised sentence
 An explanation of the changes made and why
 Format this section with headings for each sentence ("Sentence 1", "Sentence 2", etc.), followed by bullet points or indented lines for the original sentence, the revised sentence, and the reasoning.
 
-2. Revision Justification: Not every change is necessary. You need to carefully compare the revised latex to the original one, sentence by sentence, understand why this change happens, and decide whether this change significantly enhances the quality of the sentence. If the change is minor, discard the revision and keep the original text. Otherwise, keep the revision.
-For each revision, evaluate:
-The reason for the change
-Whether the change is minor or significant
-Your decision to keep the revision or revert to the original.
+2. Revision Justification: Carefully compare the revised sentence to the original. 
+For each sentence's revision, evaluate:
+Reason for Change: Explain why the change was made.
+Impact of Change: Determine if the change is minor or significant.
+Decision on Text: Decide to keep the revision only if the change significantly enhances the sentence. Otherwise, revert to the original sentence.
 Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
 
 3. Revised LaTeX Document:
