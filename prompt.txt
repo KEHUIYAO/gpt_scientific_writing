@@ -31,18 +31,13 @@ The revised sentence
 An explanation of the changes made and why
 Format this section with headings for each sentence ("Sentence 1", "Sentence 2", etc.), followed by bullet points or indented lines for the original sentence, the revised sentence, and the reasoning.
 
-2. Revision Justification: Carefully compare the revised sentence to the original and revert unnecessary changes. Examples of unnecessary changes are provided, delimited within $$$$.
-$$$$
-"uses" to "employs" 
-"Once we obtain" to "Upon obtaining" 
-"designed" to "constructed" 
-“detailed” to “elaborated”
-“include” to “encompassed”
-$$$$
+2. Revision Justification: Carefully compare the revised sentence to the original and revert unnecessary changes. 
 For each sentence's revision, evaluate:
 Reason for Change: Explain why the change was made.
-Whether the change is necessary: if yes, keep the revision, if not, revert to original text.
+Impact of Change: Determine the significance of the change based on a score from 1 to 5. 1 means minor, and 5 means significant.
+Decision on Text: Decide to keep the revision only if the impact of change >= 3. Otherwise, revert to the original sentence.
 Use a structured format with headings for each sentence being discussed. Beneath each heading, address the three evaluation points in bullet points or a numbered list.
+
 
 3. Revised LaTeX Document:
 Conclude with the final revised version of the LaTeX document. Present it as a cohesive, corrected text, incorporating all the changes that were deemed significant.
